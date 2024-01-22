@@ -21,7 +21,12 @@ public class Worker {
     public double collectPay() {
         return 0.0;
     }
-
+    public String getName() {
+        return name;
+    }
+    public String getBirthDate() {
+        return birthDate;
+    }
     public void terminate(String endDate) {
         this.endDate = endDate;
     }
