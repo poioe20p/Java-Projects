@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Car car = new EletricCar("Tesla Model S", 500, 100);
         Car car1 = new HybridCar("Toyota Prius", 20, 4, 50);
-        Car car2 = new GasPoweredCar("Ford Fusion", 10, 4;
+        Car car2 = new GasPoweredCar("Ford Fusion", 10, 4);
 
         ArrayList<Car> cars = new ArrayList<>(List.of(car, car1, car2));
         for (Car c : cars) {
