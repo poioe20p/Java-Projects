@@ -18,6 +18,7 @@ public class DemoTrack {
         frame.add(track);
         frame.setSize(500, 300);
         frame.setVisible(true);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 
 }
